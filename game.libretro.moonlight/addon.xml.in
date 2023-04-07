@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.moonlight"
 		name="Moonlight"
-		version="0.0.0.0"
-		provider-name="libretro">
+		version="1.0.3.1"
+		provider-name="Rock88">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
@@ -10,11 +10,12 @@
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
 		<extensions></extensions>
-		<supports_vfs>false</supports_vfs>
-		<supports_standalone>false</supports_standalone>
-		<requires_opengl>false</requires_opengl>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<requires_opengl>true</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
+		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.moonlight</source>
 		<summary lang="en_GB">Moonlight</summary>

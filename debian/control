@@ -1,0 +1,17 @@
+Source: kodi-game-libretro-moonlight
+Priority: extra
+Maintainer: wsnipex <wsnipex@a1.net>
+Build-Depends: debhelper (>= 9.0.0),
+               cmake,
+               kodi-addon-dev,
+               libretro-moonlight (>= 1.0.3) | moonlight (>= 1.0.3)
+Standards-Version: 3.9.8
+Section: libs
+
+Package: kodi-game-libretro-moonlight
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
+Enhances: kodi
+Description: Moonlight core for kodi's retroplayer
+ Moonlight core for kodi's retroplayer
