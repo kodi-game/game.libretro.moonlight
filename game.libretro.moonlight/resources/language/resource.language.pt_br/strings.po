@@ -1,0 +1,25 @@
+# game.libretro.moonlight language file
+# Addon Name: game.libretro.moonlight
+# Addon id: game.libretro.moonlight
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.moonlight\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2023-04-07 06:21i\n"
+"PO-Revision-Date: 2023-04-07 06:21i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Moonlight"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Port of the Moonlight Game Stream Project for libretro."
+msgstr ""
