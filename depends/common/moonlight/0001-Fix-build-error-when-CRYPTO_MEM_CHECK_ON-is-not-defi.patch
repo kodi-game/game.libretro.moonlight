@@ -1,0 +1,34 @@
+From 7a05bc43963a4ecda2b59f4c1df490b7fd46448f Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Thu, 6 Apr 2023 22:26:54 -0700
+Subject: [PATCH] Fix build error when CRYPTO_MEM_CHECK_ON is not defined
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Error was:
+
+  libgamestream/mkcert.c:44:21: error: ‘CRYPTO_MEM_CHECK_ON’ undeclared (first use in this function)
+     44 |     CRYPTO_mem_ctrl(CRYPTO_MEM_CHECK_ON);
+        |                     ^~~~~~~~~~~~~~~~~~~
+---
+ libgamestream/mkcert.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/libgamestream/mkcert.c b/libgamestream/mkcert.c
+index 53c72f3..908e2d7 100644
+--- a/libgamestream/mkcert.c
++++ b/libgamestream/mkcert.c
+@@ -41,7 +41,9 @@ CERT_KEY_PAIR mkcert_generate() {
+     EVP_PKEY *pkey = NULL;
+     PKCS12 *p12 = NULL;
+ 
++#if defined(CRYPTO_MEM_CHECK_ON)
+     CRYPTO_mem_ctrl(CRYPTO_MEM_CHECK_ON);
++#endif
+     bio_err = BIO_new_fp(stderr, BIO_NOCLOSE);
+ 
+     OpenSSL_add_all_algorithms();
+-- 
+2.34.1
+
