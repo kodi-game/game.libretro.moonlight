@@ -20,7 +20,9 @@
 		<source>https://github.com/kodi-game/game.libretro.moonlight</source>
 		<summary lang="da_DK">Moonlight</summary>
 		<summary lang="en_GB">Moonlight</summary>
+		<summary lang="es_ES">Moonlight</summary>
 		<description lang="da_DK">Version af Moonlight Game Stream Project til libretro.</description>
 		<description lang="en_GB">Port of the Moonlight Game Stream Project for libretro.</description>
+		<description lang="es_ES">Adaptación del proyecto Moonlight Game Stream para libretro.</description>
 	</extension>
 </addon>
