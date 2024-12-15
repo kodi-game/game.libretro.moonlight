@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.moonlight"
 		name="Moonlight"
-		version="1.0.3.8"
+		version="1.0.3.9"
 		provider-name="Rock88">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
