@@ -22,11 +22,13 @@
 		<summary lang="en_GB">Moonlight</summary>
 		<summary lang="es_ES">Moonlight</summary>
 		<summary lang="it_IT">Moonlight</summary>
+		<summary lang="sv_SE">Moonlight</summary>
 		<summary lang="zh_CN">Moonlight</summary>
 		<description lang="da_DK">Version af Moonlight Game Stream Project til libretro.</description>
 		<description lang="en_GB">Port of the Moonlight Game Stream Project for libretro.</description>
 		<description lang="es_ES">Adaptación del proyecto Moonlight Game Stream para libretro.</description>
 		<description lang="it_IT">Port del progetto Moonlight Game Stream per libretro.</description>
+		<description lang="sv_SE">Portning av Moonlight Game Stream Project för libretro.</description>
 		<description lang="zh_CN">Moonlight Game Stream 项目的 libretro 移植。</description>
 	</extension>
 </addon>
