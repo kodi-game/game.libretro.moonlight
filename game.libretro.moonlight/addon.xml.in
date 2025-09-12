@@ -21,6 +21,7 @@
 		<summary lang="da_DK">Moonlight</summary>
 		<summary lang="en_GB">Moonlight</summary>
 		<summary lang="es_ES">Moonlight</summary>
+		<summary lang="ga">Moonlight</summary>
 		<summary lang="it_IT">Moonlight</summary>
 		<summary lang="ru_RU">Moonlight</summary>
 		<summary lang="sv_SE">Moonlight</summary>
@@ -28,6 +29,7 @@
 		<description lang="da_DK">Version af Moonlight Game Stream Project til libretro.</description>
 		<description lang="en_GB">Port of the Moonlight Game Stream Project for libretro.</description>
 		<description lang="es_ES">Adaptación del proyecto Moonlight Game Stream para libretro.</description>
+		<description lang="ga">Tionscadal Sruth Cluiche Port of the Moonlight do libretro.</description>
 		<description lang="it_IT">Port del progetto Moonlight Game Stream per libretro.</description>
 		<description lang="ru_RU">Порт проекта Moonlight Game Stream для libretro.</description>
 		<description lang="sv_SE">Portning av Moonlight Game Stream Project för libretro.</description>
